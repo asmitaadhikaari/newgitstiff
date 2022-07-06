@@ -25,7 +25,9 @@ public class stepDefination {
     @Then("^home page is populated$")
     public void home_page_is_populated() throws Throwable {
         System.out.println("validated home page");
-
+        System.out.println("validated home1111 page");
+        System.out.println("validated home1114 page");
+        System.out.println("validated home11133 page");
     }
 
     @When("^user login application with \"([^\"]*)\" and password \"([^\"]*)\"$")
